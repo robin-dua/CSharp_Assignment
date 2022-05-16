@@ -1,4 +1,11 @@
-﻿using System;
+/* Write a program in C# Sharp to make such a pattern like a pyramid with an asterisk. */
+/* Expected output:
+   *
+  * * 
+ * * *
+* * * *  */
+
+using System;
 public class Pyramid
 {
     public static void Main()
