@@ -1,16 +1,26 @@
-﻿using System;
+/* Write a program in C# to display the multiplication table vertically from 1 to n. */
+
+using System;
 public class Table
 {
     public static void Main()
     {
-        int i, n;
-        Console.Write("Multiplication Table of 2 to 4:\n");
-
-        Console.Write("Enter the number: ");
+        int j, i, n, m;
+        Console.Write("Enter a number for the table of: ");
         n = Convert.ToInt32(Console.ReadLine());
-        for (i = 1; i <= 4; i++)
+        Console.Write("Enter the number until table will be displayed : ");
+        m = Convert.ToInt32(Console.ReadLine());
+        for (i = 1; i <= m; i++)
         {
-            Console.Write("{0} X {1} = {2} \n", n, i, n * i);
+            for (j = n; j <= n; j++)
+            {
+                if (j <= n - 1)
+                    Console.Write("{0}x{1} = {2}, ", j, i, i * j);
+                else
+                    Console.Write("{0}x{1} = {2}", j, i, i * j);
+
+            }
+            Console.Write("\n");
         }
     }
 }
