@@ -1,4 +1,6 @@
-﻿using System;
+/* Write a C# Sharp program that takes a number and a width also a number, as input and then displays a triangle of that width, using that number. */
+
+using System;
 public class Triangle
 {
     public static void Main()
