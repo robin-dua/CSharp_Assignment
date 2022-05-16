@@ -1,4 +1,4 @@
-/* Write a program in C# to display the multiplication table vertically from 1 to n. */
+/* Write a program in C# Sharp to display the multiplication table vertically from 1 to n. */
 
 using System;
 public class Table
