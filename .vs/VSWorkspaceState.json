@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSharp_Problem1",
-    "\\CSharp_Problem1\\CSharp_Problem1",
-    "\\CSharp_Problem1\\CSharp_Problem2",
-    "\\CSharp_Problem1\\CSharp_Problem3",
-    "\\CSharp_Problem4"
+    "\\CSharp_Assessment",
+    "\\CSharp_Assessment\\CSharp_Problem1"
   ],
-  "SelectedNode": "\\CSharp_Problem4",
+  "SelectedNode": "\\CSharp_Assessment\\CSharp_Problem1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
